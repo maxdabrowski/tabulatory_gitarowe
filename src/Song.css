@@ -1,0 +1,82 @@
+.song{
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    padding:0.5rem 0.5rem;
+    background: rgb(228, 95, 95);
+    color:#fff;
+    border:0;
+    border-radius: 0.5rem;
+    cursor: pointer; 
+    float: right;
+    font-size: 13px;
+    float:right;
+    transform: translateY(-30px);
+}
+a:hover{
+    background: #ED2D2D;
+}
+hr{
+    border:0px;
+    height: 1px;
+    background: rgb(184, 179, 179);
+    width: 100%;
+}
+.tabulatorList{
+    font-size: 17px; 
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 5px;
+}
+.TabulatorLabel{
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.songTitle{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 70%;
+}
+
+@media (max-width: 1050px) and (min-width: 749px) {
+    .songTitle{
+        font-size: 15px;
+        width:80%   
+    }
+}
+
+@media (max-width: 750px) and (min-width: 450px) {
+    .songTitle{
+        font-size: 17px;
+        width:80%
+    }
+    a{
+        padding:0.3rem 0.5rem;
+        border-radius: 0.2rem;
+        font-size: 12px;  
+    } 
+}
+
+@media (max-width: 450px) {
+    .songTitle{
+        font-size: 13px;
+    }
+    .tabulatorList{
+        font-size: 12px; 
+    }
+    .TabulatorLabel{
+        font-size: 12px;
+    }
+    a{
+        float:none;
+        padding:0.3rem 0.5rem;
+        border-radius: 0.2rem;
+        font-size: 10px;
+    }
+    hr{
+        width:80%
+    }       
+}
+    

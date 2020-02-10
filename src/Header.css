@@ -1,0 +1,73 @@
+.header{
+    padding: 30px;
+}
+.spanTitle{
+    color: #F15C5C;
+}
+.subscription{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+}
+
+@media (max-width: 1050px) and (min-width: 749px) {
+    h1{
+        font-size: 30px;     
+    }
+    .subscription{
+        font-size: 17px;
+    }
+    .app{
+        margin-top:40px;
+        margin-bottom: 40px;
+        width: 90%;
+    }
+  }
+  
+@media (max-width: 750px) and (min-width: 450px) {
+    h1{
+        font-size: 20px;     
+    }
+    .subscription{
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .app{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+    .header{
+        padding-bottom: 0px;
+    }
+  
+  }
+  
+@media (max-width: 450px) {
+    .app{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        border-radius: 0px;
+    }
+    h1{
+        font-size: 15px;     
+    }
+    .subscription{
+        font-size: 13px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .header{
+        padding: 5px
+    }
+  }

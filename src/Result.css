@@ -1,0 +1,47 @@
+
+.result{
+    padding-left: 30px;
+    padding-right: 30px;   
+}
+.resultList{
+    list-style-type: none;
+    margin-left: 10%;
+    margin-right: 10%; 
+    padding-left: 0px;    
+}
+.noResult{
+    font-size: 22px;
+    color: #F15C5C;
+    text-align: center;
+    margin-top:0px;
+    padding-bottom: 20px
+}
+
+@media (max-width: 750px) and (min-width: 450px) {
+    .result{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .resultList{
+        margin: 0px
+    }
+    .noResult{
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .result{
+        padding: 0px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .resultList{
+        margin: 0px;
+        text-align: center;
+    }
+    .noResult{
+        font-size: 12px;
+    }
+}
