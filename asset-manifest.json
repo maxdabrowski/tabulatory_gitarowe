@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tabulatory_gitarowe/static/css/main.dc6947d0.chunk.css",
+    "main.js": "/tabulatory_gitarowe/static/js/main.6f51881a.chunk.js",
+    "main.js.map": "/tabulatory_gitarowe/static/js/main.6f51881a.chunk.js.map",
+    "runtime-main.js": "/tabulatory_gitarowe/static/js/runtime-main.84602ef4.js",
+    "runtime-main.js.map": "/tabulatory_gitarowe/static/js/runtime-main.84602ef4.js.map",
+    "static/js/2.7e681a74.chunk.js": "/tabulatory_gitarowe/static/js/2.7e681a74.chunk.js",
+    "static/js/2.7e681a74.chunk.js.map": "/tabulatory_gitarowe/static/js/2.7e681a74.chunk.js.map",
+    "index.html": "/tabulatory_gitarowe/index.html",
+    "precache-manifest.3b29f8f3b899bd02ca46f8955dc4d272.js": "/tabulatory_gitarowe/precache-manifest.3b29f8f3b899bd02ca46f8955dc4d272.js",
+    "service-worker.js": "/tabulatory_gitarowe/service-worker.js",
+    "static/css/main.dc6947d0.chunk.css.map": "/tabulatory_gitarowe/static/css/main.dc6947d0.chunk.css.map",
+    "static/js/2.7e681a74.chunk.js.LICENSE.txt": "/tabulatory_gitarowe/static/js/2.7e681a74.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/tabulatory_gitarowe/static/media/guitar.46783422.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84602ef4.js",
+    "static/js/2.7e681a74.chunk.js",
+    "static/css/main.dc6947d0.chunk.css",
+    "static/js/main.6f51881a.chunk.js"
+  ]
+}
